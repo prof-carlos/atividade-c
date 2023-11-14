@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
 int main () {
 	int numero=0;
@@ -12,6 +9,7 @@ int main () {
 	do {
 		printf("Digite um número: ");
 		scanf("%i",&numero);
+		
 		 i++;
 		 soma = numero + i;
 		 media = soma / i;
